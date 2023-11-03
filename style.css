@@ -1,92 +1,74 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+*{
+    padding: 0px;
+    font-family: tahoma;
+    -webkit-flex: 1;
+    
 }
-
-html {
-  font-size: 62.5%;
+#cointainer{
+    margin-top: 50px;
+    margin: auto;
+    width: 30%;
+    padding: 0px;
+    border: 1px solid black;
+    border-radius: 25px ;
+    height: 500px;
+   
+    box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
 }
-
-body {
-  height: 100vh;
-  background-color: #212f3d;
-  display: grid;
-  place-items: center;
+#mytext{
+    width: 50ppx;
+    font-size: 40px;
+    position: absolute;
+    font-family: tahoma;
+    color: white;
+    top: 40px;
+    left: 340px;
+    -webkit-flex: 1;
 }
-
-.card {
-  width: 35rem;
-  min-width: 20rem;
-  height: 40rem;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
+#top{
+    width: auto;
+    border: 3px solid none;
+    height: 250px;
+    padding: 0px;
+    border-radius: 25px 25px 0 0;
+     background: -moz-linear-gradient(-45deg, #fa782e 8%, #c82930 83%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #fa782e 8%, #c82930 83%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #fa782e 8%, #c82930 83%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fa782e', endColorstr='#c82930', GradientType=1);
 }
-
-.card_content {
-  text-align: center;
-  padding: 0 3rem;
-  position: absolute;
+#bottom{
+    width: auto;
+    border: 3px solid none;
+    height: 240px;
+    padding: 0px;
+    border-radius: 0px 0px 25px 25px;
+    
 }
-
-.card_content h1 {
-  font-size: 3rem;
-  text-transform: capitalize;
-  color: #34495e;
-  margin-top: 3rem;
+#myimg{
+    position: relative;
+    width: 170px;
+    top: 20px;
+    left: 180px;
 }
-
-.card_content p {
-  margin: 1rem 0 3rem 0;
-  font-size: 1.4rem;
+p{
+    padding: 5px;
 }
-
-a {
-  text-decoration: none;
-  border: 0.1rem solid #34495e;
-  padding: 1rem 2.2rem;
-  font-size: 1.6rem;
-  text-transform: uppercase;
-  color: #34495e;
-  background-color: #34495e;
-  color: #fff;
-  margin-top: 3rem;
+#fb{
+    position: relative;
+    margin-left: 15px;
+    width: 40px;
+    -webkit-flex: 1;
 }
-
-a:hover {
-  background-color: #34495e;
-  color: #fff;
+#insta{
+    width: 40px;
+    margin-left: 15px;
+    -webkit-flex: 1;
 }
-
-.card_number {
-  position: absolute;
-  background-color: #2e86c1;
-  color: #fff;
-  font-size: 8rem;
-  width: 100%;
-  height: 100%;
-  display: grid;
-  place-items: center;
-  transition: all 0.5s linear;
-}
-
-.card_number {
-  width: 6rem;
-  height: 6rem;
-  border-radius: 50%;
-  border: 0.2rem dotted #34495e;
-  color: #34495e;
-  font-size: 2rem;
-  top: 10%;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #fff;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+#wa{
+    width: 40px;
+    margin-left: 15px;
+    -webkit-flex: 1;
 }
